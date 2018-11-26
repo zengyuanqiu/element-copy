@@ -74,7 +74,7 @@
 				return TYPE_CLASS_MAP[this.type] || 'el-icon-info'
 			},
 			isBigIcon() {
-				return this.description || this.$slots.default ? 'is-big' : '' ;			}
+				return this.description || this.$slots.default ? 'is-big' : '' ;
 			},
 			isBoldTitle() {
 				return this.description || this.$slots.default ? 'is-bold': '';
